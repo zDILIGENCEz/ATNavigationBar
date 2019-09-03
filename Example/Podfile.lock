@@ -1,0 +1,16 @@
+PODS:
+  - ATNavigationBar (0.1.0)
+
+DEPENDENCIES:
+  - ATNavigationBar (from `../`)
+
+EXTERNAL SOURCES:
+  ATNavigationBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ATNavigationBar: 416699c6ae8e2d0bdafa26330a829d646b2b4fa8
+
+PODFILE CHECKSUM: 9ede61561cede542cf7afe3b6cf89b4682c38f08
+
+COCOAPODS: 1.7.5

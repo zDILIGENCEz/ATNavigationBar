@@ -1,0 +1,6 @@
+framework module ATNavigationBar {
+  umbrella header "ATNavigationBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

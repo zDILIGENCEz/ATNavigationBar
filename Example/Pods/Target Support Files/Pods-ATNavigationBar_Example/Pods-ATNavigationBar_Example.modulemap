@@ -1,0 +1,6 @@
+framework module Pods_ATNavigationBar_Example {
+  umbrella header "Pods-ATNavigationBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
