@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ATNavigationBar_Example' do
+  pod 'ATNavigationBar', :path => '../'
+
+  target 'ATNavigationBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
