@@ -9,7 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ATNavigationBar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ATNavigationBar.'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.homepage         = 'https://github.com/zDILIGENCEz/ATNavigationBar'
+  s.summary          = 'An animated transparent NavigationBar for iOS written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +20,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                   This is an iOS library add animated transparent NavigationBar to your project.
+                   * Allows to specify configurable NavigationBar.
+                   // TODO: rewrite description
                        DESC
-
-  s.homepage         = 'https://github.com/zDILIGENCEz/ATNavigationBar'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zDILIGENCEz' => 'nikita.k@rcsmail.ru' }
-  s.source           = { :git => 'https://github.com/zDILIGENCEz/ATNavigationBar.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ATNavigationBar/Classes/**/*'
   
+  s.author           = { 'Nikita Kusyumov' => 'n.kusyumov@mail.ru' }
+  s.source           = { :git => 'https://github.com/zDILIGENCEz/ATNavigationBar.git', :tag => s.version.to_s }
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.source_files = 'ATNavigationBar/Classes/**/*'
+  s.ios.deployment_target = '8.0'
+  # s.dependency 'AFNetworking', '~> 2.3' 
+  s.swift_versions = ["4.2", "5.0"]
+  s.frameworks = 'UIKit', 'SnapKit'
+
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # s.resource_bundles = {
   #   'ATNavigationBar' => ['ATNavigationBar/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

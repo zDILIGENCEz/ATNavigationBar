@@ -8,9 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0E7F1C08A25C00BF75D457DF243640E7 /* Pods-ATNavigationBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36D36018A83DFA36D7857756081CF0BF /* Pods-ATNavigationBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151439CD231E6A57004ECCCE /* ATNavigationBarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439CC231E6A57004ECCCE /* ATNavigationBarSettings.swift */; };
+		151439E0231F78E6004ECCCE /* ATNavigationBarEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439DF231F78E6004ECCCE /* ATNavigationBarEnums.swift */; };
+		151439E2231F8153004ECCCE /* ATNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439E1231F8153004ECCCE /* ATNavigationBar.swift */; };
+		151439E4231F85DB004ECCCE /* ATNavigationBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439E3231F85DB004ECCCE /* ATNavigationBarViewModel.swift */; };
 		5ADC3E2C321BCCE7B9E998C1C4A855B5 /* Pods-ATNavigationBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB79BF98FE9E532EF1652B9FB412269F /* Pods-ATNavigationBar_Tests-dummy.m */; };
 		6D16BF9852072A596986FAC8D5D78755 /* ATNavigationBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D9637C2AB35295FC10BDBEE3A9A63B /* ATNavigationBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BF8DF3A4CAB9B70408623601C8FDE91 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDC4EB36DECDF804C208A8DBBCC3EC8 /* ReplaceMe.swift */; };
 		882F4C6AC665F490EC465A0B58867C4A /* Pods-ATNavigationBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E60E8A7DC93E8085EB10B6235333FFEA /* Pods-ATNavigationBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9A2B9F853DA66F2B3D23D07D42F29D04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		AB4BF59965EE517141046487B2641284 /* Pods-ATNavigationBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC65C985BEC9E6EE60258461120A739A /* Pods-ATNavigationBar_Example-dummy.m */; };
@@ -37,16 +40,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03772B57DE6B712390EE9FAC3906273A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		06118F28FF2E60278F2A734A4C734478 /* Pods_ATNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ATNavigationBar_Example.framework; path = "Pods-ATNavigationBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B0CD384FF2678160333EA8D5E6C78DC /* Pods_ATNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ATNavigationBar_Tests.framework; path = "Pods-ATNavigationBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03772B57DE6B712390EE9FAC3906273A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		06118F28FF2E60278F2A734A4C734478 /* Pods_ATNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		151439CC231E6A57004ECCCE /* ATNavigationBarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNavigationBarSettings.swift; sourceTree = "<group>"; };
+		151439DF231F78E6004ECCCE /* ATNavigationBarEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNavigationBarEnums.swift; sourceTree = "<group>"; };
+		151439E1231F8153004ECCCE /* ATNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNavigationBar.swift; sourceTree = "<group>"; };
+		151439E3231F85DB004ECCCE /* ATNavigationBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATNavigationBarViewModel.swift; sourceTree = "<group>"; };
+		1B0CD384FF2678160333EA8D5E6C78DC /* Pods_ATNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FCA91B27302FB2C75F9F432DBB383F8 /* Pods-ATNavigationBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATNavigationBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		334CA9B7289287019E578274E26E59D3 /* Pods-ATNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36D36018A83DFA36D7857756081CF0BF /* Pods-ATNavigationBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATNavigationBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3F10DD6E907DF0BB10401BA3BB967285 /* ATNavigationBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ATNavigationBar-dummy.m"; sourceTree = "<group>"; };
 		49DCB0581C652B46EBC78C689D1E0F7B /* Pods-ATNavigationBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATNavigationBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4FB483B2C436297E47B3D9A0BCD96758 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4FB483B2C436297E47B3D9A0BCD96758 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		52463D3B408907DFB040B6453C488E66 /* Pods-ATNavigationBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ATNavigationBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		54514330F27A7BF124E85905824D31C6 /* ATNavigationBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ATNavigationBar.modulemap; sourceTree = "<group>"; };
 		5CEDD097141604DFB280090E35514CF9 /* Pods-ATNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -57,18 +64,17 @@
 		8B34430601B0BA4106527FD33E71F5E2 /* ATNavigationBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ATNavigationBar.xcconfig; sourceTree = "<group>"; };
 		907FEBE1AB5ECD3D32ABC96F28D2A80F /* ATNavigationBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATNavigationBar-prefix.pch"; sourceTree = "<group>"; };
 		9A13FAF528E5098AA7889D33DE2A3149 /* Pods-ATNavigationBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATNavigationBar_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3D9637C2AB35295FC10BDBEE3A9A63B /* ATNavigationBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ATNavigationBar-umbrella.h"; sourceTree = "<group>"; };
-		B6705A66D76D867D61877E4F8114AACD /* ATNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ATNavigationBar.framework; path = ATNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6705A66D76D867D61877E4F8114AACD /* ATNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ATNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC65C985BEC9E6EE60258461120A739A /* Pods-ATNavigationBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATNavigationBar_Example-dummy.m"; sourceTree = "<group>"; };
 		C6972545AB0D675440008CC8D992042F /* Pods-ATNavigationBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ATNavigationBar_Example.modulemap"; sourceTree = "<group>"; };
-		CA593CD7CFF89F80A5FA72730649C925 /* ATNavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ATNavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CA593CD7CFF89F80A5FA72730649C925 /* ATNavigationBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ATNavigationBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CB79BF98FE9E532EF1652B9FB412269F /* Pods-ATNavigationBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ATNavigationBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		D6DBAE4D2E1EECD8E08B8BEC90357B48 /* Pods-ATNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ATNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1B2E1A9610D89C73545C12C40A106CC /* ATNavigationBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ATNavigationBar-Info.plist"; sourceTree = "<group>"; };
 		E1F731F0E807E9F8E85E01B69E2150CE /* Pods-ATNavigationBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ATNavigationBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E60E8A7DC93E8085EB10B6235333FFEA /* Pods-ATNavigationBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ATNavigationBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		FFDC4EB36DECDF804C208A8DBBCC3EC8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = ATNavigationBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +191,10 @@
 		CF8F35D5CFFCE34763059E0B61F992AC /* ATNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				FFDC4EB36DECDF804C208A8DBBCC3EC8 /* ReplaceMe.swift */,
+				151439E1231F8153004ECCCE /* ATNavigationBar.swift */,
+				151439DF231F78E6004ECCCE /* ATNavigationBarEnums.swift */,
+				151439CC231E6A57004ECCCE /* ATNavigationBarSettings.swift */,
+				151439E3231F85DB004ECCCE /* ATNavigationBarViewModel.swift */,
 				E516B3031E739E20CD59E2B42A2BCC4A /* Pod */,
 				5DB7519B3B973C10DD4B6562B6126F87 /* Support Files */,
 			);
@@ -380,8 +389,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151439CD231E6A57004ECCCE /* ATNavigationBarSettings.swift in Sources */,
+				151439E2231F8153004ECCCE /* ATNavigationBar.swift in Sources */,
 				F98D5B62A1B273CEB78CBF6FBBAE94DC /* ATNavigationBar-dummy.m in Sources */,
-				7BF8DF3A4CAB9B70408623601C8FDE91 /* ReplaceMe.swift in Sources */,
+				151439E4231F85DB004ECCCE /* ATNavigationBarViewModel.swift in Sources */,
+				151439E0231F78E6004ECCCE /* ATNavigationBarEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,8 +598,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
