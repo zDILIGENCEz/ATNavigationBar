@@ -10,31 +10,30 @@ import Foundation
 
 import UIKit
 
-class ExampleViewController: UIViewController {
+class ExampleViewController: BaseViewController {
     
     // MARK: - Private properties
     
-//    private let <#name#>View = <#Name#>View()
-//    private let <#name#>ViewModel = <#Name#>ViewModel()
-//    
-//    // MARK: - Override properties
-//    
-//    override var customView: UIView {
-//        return <#name#>View
-//    }
-//    
-//    // MARK: - Life cycle
-//    
-//    override func viewWillAppear(_ animated: Bool) {
-//        super.viewWillAppear(animated)
-//    }
-//    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//    }
-//    
-//    // MARK: - Action handlers
-//    
-//    // MARK: - Private methods
-//    
+    private let exampleView = ExampleView()
+    
+    // MARK: - Override properties
+    
+    override var customView: UIView {
+        return exampleView
+    }
+    
+    // MARK: - Life cycle
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
+    // MARK: - Action handlers
+    
+    // MARK: - Private methods
+    
 }

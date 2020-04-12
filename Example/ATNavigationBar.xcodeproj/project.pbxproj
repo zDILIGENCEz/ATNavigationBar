@@ -9,7 +9,9 @@
 /* Begin PBXBuildFile section */
 		151439CF231EB283004ECCCE /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439CE231EB283004ECCCE /* ExampleViewController.swift */; };
 		151439D8231EB387004ECCCE /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151439D7231EB387004ECCCE /* ExampleView.swift */; };
-		18291334BE0C3BBD3F83CD35 /* Pods_ATNavigationBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B068361376145860E49AAF3E /* Pods_ATNavigationBar_Tests.framework */; };
+		1569ECFC24433E41007E9F81 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1569ECFB24433E41007E9F81 /* BaseView.swift */; };
+		1569ECFE24433EC2007E9F81 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1569ECFD24433EC2007E9F81 /* BaseViewController.swift */; };
+		1569ED0024433F57007E9F81 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1569ECFF24433F57007E9F81 /* RootRouter.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -28,10 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08C93CD036FC7D450339C93D /* Pods-ATNavigationBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNavigationBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-ATNavigationBar_Tests/Pods-ATNavigationBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		151439CE231EB283004ECCCE /* ExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		151439D7231EB387004ECCCE /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
-		1AAE670CE87A8E799D6964E5 /* Pods-ATNavigationBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNavigationBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ATNavigationBar_Tests/Pods-ATNavigationBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1569ECFB24433E41007E9F81 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		1569ECFD24433EC2007E9F81 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1569ECFF24433F57007E9F81 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		3726B4F57F3F5642B829624F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5671E69F4149676372A6C2D3 /* Pods-ATNavigationBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNavigationBar_Example.release.xcconfig"; path = "Target Support Files/Pods-ATNavigationBar_Example/Pods-ATNavigationBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C773AD6D2BB5865A46959CA /* Pods_ATNavigationBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNavigationBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +46,7 @@
 		607FACE51AFB9204008FA782 /* ATNavigationBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATNavigationBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C358073C25B5503B4050EFA /* ATNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATNavigationBar.podspec; path = ../ATNavigationBar.podspec; sourceTree = "<group>"; };
-		B068361376145860E49AAF3E /* Pods_ATNavigationBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATNavigationBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C358073C25B5503B4050EFA /* ATNavigationBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ATNavigationBar.podspec; path = ../ATNavigationBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE9811B023C922EB0EA9AC17 /* Pods-ATNavigationBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATNavigationBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-ATNavigationBar_Example/Pods-ATNavigationBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA0842ED4DE3CAE74F0A068 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18291334BE0C3BBD3F83CD35 /* Pods_ATNavigationBar_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,25 +73,28 @@
 		151439D2231EB2BD004ECCCE /* Clases */ = {
 			isa = PBXGroup;
 			children = (
+				1569ECFA24433E2E007E9F81 /* Base */,
 				151439D6231EB36F004ECCCE /* Example */,
 			);
 			name = Clases;
 			sourceTree = "<group>";
 		};
-		151439D3231EB2C9004ECCCE /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
 		151439D6231EB36F004ECCCE /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				151439CE231EB283004ECCCE /* ExampleViewController.swift */,
 				151439D7231EB387004ECCCE /* ExampleView.swift */,
+				151439CE231EB283004ECCCE /* ExampleViewController.swift */,
 			);
 			name = Example;
+			sourceTree = "<group>";
+		};
+		1569ECFA24433E2E007E9F81 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1569ECFB24433E41007E9F81 /* BaseView.swift */,
+				1569ECFD24433EC2007E9F81 /* BaseViewController.swift */,
+			);
+			name = Base;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -117,8 +121,8 @@
 		607FACD21AFB9204008FA782 /* Example for ATNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				151439D3231EB2C9004ECCCE /* Base */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				1569ECFF24433F57007E9F81 /* RootRouter.swift */,
 				151439D2231EB2BD004ECCCE /* Clases */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -168,8 +172,6 @@
 			children = (
 				CE9811B023C922EB0EA9AC17 /* Pods-ATNavigationBar_Example.debug.xcconfig */,
 				5671E69F4149676372A6C2D3 /* Pods-ATNavigationBar_Example.release.xcconfig */,
-				1AAE670CE87A8E799D6964E5 /* Pods-ATNavigationBar_Tests.debug.xcconfig */,
-				08C93CD036FC7D450339C93D /* Pods-ATNavigationBar_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -178,7 +180,6 @@
 			isa = PBXGroup;
 			children = (
 				5C773AD6D2BB5865A46959CA /* Pods_ATNavigationBar_Example.framework */,
-				B068361376145860E49AAF3E /* Pods_ATNavigationBar_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +210,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "ATNavigationBar_Tests" */;
 			buildPhases = (
-				3BCA9E6810E1021BE3F155BC /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -287,28 +287,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3BCA9E6810E1021BE3F155BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ATNavigationBar_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		631B0942E691952D98101325 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -338,11 +316,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ATNavigationBar_Example/Pods-ATNavigationBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ATNavigationBar/ATNavigationBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ATNavigationBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -356,9 +334,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1569ECFE24433EC2007E9F81 /* BaseViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				151439CF231EB283004ECCCE /* ExampleViewController.swift in Sources */,
 				151439D8231EB387004ECCCE /* ExampleView.swift in Sources */,
+				1569ED0024433F57007E9F81 /* RootRouter.swift in Sources */,
+				1569ECFC24433E41007E9F81 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +506,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AAE670CE87A8E799D6964E5 /* Pods-ATNavigationBar_Tests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8LR57H94X2;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +528,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08C93CD036FC7D450339C93D /* Pods-ATNavigationBar_Tests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8LR57H94X2;
 				FRAMEWORK_SEARCH_PATHS = (

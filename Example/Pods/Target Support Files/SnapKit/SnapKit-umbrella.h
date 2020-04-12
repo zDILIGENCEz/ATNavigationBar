@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ATNavigationBar_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ATNavigationBar_TestsVersionString[];
+FOUNDATION_EXPORT double SnapKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char SnapKitVersionString[];
 

@@ -1,16 +1,23 @@
 PODS:
   - ATNavigationBar (0.1.0)
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - ATNavigationBar (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   ATNavigationBar:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ATNavigationBar: 416699c6ae8e2d0bdafa26330a829d646b2b4fa8
+  ATNavigationBar: 71a8d64a8d0e3e33da450db8f952985e7bfbeb3e
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 9ede61561cede542cf7afe3b6cf89b4682c38f08
+PODFILE CHECKSUM: 021e000c72a166ad47f64d932ba3602e4d9e0c46
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.9.0
